@@ -5,7 +5,7 @@ class XOXO:
         self.current_player='X'
         self.board=[["","",""],["","",""],["","",""]]
         self.window=tk.Tk()
-        self.window.title("XOXO")
+        self.window.title("TIC TOK TO")
 
         self.buttongrid = []
         for i in range(3):
